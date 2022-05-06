@@ -480,7 +480,7 @@ namespace MathSouls
                                     Thread.Sleep(1500); // wait 1.5 seconds
                                 }
                                 lvl_1_music.Stop();
-                            }
+                            
 
                             // Game Over screen
                             if (Player_HP == 0)
@@ -510,6 +510,7 @@ namespace MathSouls
                                     Thread.Sleep(2500);
                                     break;
                                 }
+                            }
                             }
                         }
                         #endregion
